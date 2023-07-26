@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sửa thông tin lớp"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/ed_ten_lop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên lớp: "/>
+    <EditText
+        android:id="@+id/ed_si_so"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập sĩ số: "/>
+    <Spinner
+        android:id="@+id/spin_khoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu" />
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bỏ qua" />
+</LinearLayout>

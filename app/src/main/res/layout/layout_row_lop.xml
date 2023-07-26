@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#AEB371">
+
+        <TextView
+            android:id="@+id/tv_id_lop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_ten_lop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_ten_khoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
